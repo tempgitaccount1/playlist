@@ -8,7 +8,7 @@ import (
 
 func main() {
 	server.DoServerStuff()
-	//g := server.New()
-	//g.Start()
+	g := server.New()
+	g.Start()
 	fmt.Println("Hello, world!")
 }
